@@ -1,5 +1,6 @@
 
 import "./App.css";
+import ms from "./im.png"
 import { useState, useRef } from "react";
 function App() {
   const [rig, setrig] = useState([]);
@@ -24,6 +25,9 @@ setrig(nhd)
   return (
     <>
       <div className="all">
+        <div className="img">
+          <img className="img" src={ms} width={200} height={150}></img>
+        </div>
         <div className="app">
           <h1>todo list</h1>
         </div>
